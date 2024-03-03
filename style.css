@@ -1,0 +1,62 @@
+#container{
+    margin: 0 auto;
+    max-width: 920px;
+    border: 1px solid black;
+}
+
+#escolhas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img-opcoes{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#score{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nick{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pontos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pontos p {
+    font-size: 2rem;
+}
+
+.img-escolha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+
+button{
+    font-size: 1.4rem;
+    padding: 10px;
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+    background-color: rgb(235, 98, 98);
+}
+
