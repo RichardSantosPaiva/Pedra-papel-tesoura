@@ -60,3 +60,18 @@ button{
     background-color: rgb(235, 98, 98);
 }
 
+@media (max-width: 500px){
+
+    #container{
+        min-width: 80%;
+    }
+    button{
+        width: 100%;
+    }
+    div#img-opcoes{
+        flex-wrap: wrap;
+    }
+    img{
+        min-width: 40%;
+    }
+}
