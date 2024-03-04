@@ -9,15 +9,21 @@
 </head>
 
 <body>
-
+   
     <div id="container">
-        <div id="nick">
+        <div id="title">
             <h2>jogador</h2>
             <h2>robo</h2>
         </div>
+
+        <div id="score">
+            <p id="player1">0</p>
+            <p id="ia">0</p>
+        </div>
+
         <div id="escolhas">
-            <div class="img-escolha" id="resultado1"></div>
-            <div class="img-escolha" id="resultado2"></div>
+            <div class="img-escolha" id="caixa1"></div>
+            <div class="img-escolha" id="caixa2"></div>
         </div>
 
         <div id="img-opcoes">
@@ -26,7 +32,7 @@
             <img src="img/tesoura.png" alt="tesoura">
         </div>
 
-        <button onclick="resetar()">Resetar</button>
+        <button onclick="tentarNovamente()">Resetar</button>
     </div>
 
     <script src="js/index.js"></script>
